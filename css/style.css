@@ -1,0 +1,51 @@
+.service-container {
+  max-width: 600px;
+  width: auto;
+}
+
+#logo #gambar {
+  width: 300px;
+}
+
+#text {
+  text-align: center;
+}
+
+#text h4 {
+  font-weight: bold;
+}
+
+#button .btn {
+  font-size: 20px;
+}
+
+#button .bi {
+  margin-right: 10px;
+}
+
+canvas {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  z-index: -2;
+}
+body {
+  overflow-x: hidden;
+}
+#hero {
+  width: 100%;
+  height: 100vh;
+}
+#hero .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
